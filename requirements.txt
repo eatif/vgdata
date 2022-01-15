@@ -244,7 +244,7 @@ setuptools==60.1.0
 setuptools-git==1.2
 simplegeneric==0.8.1
 singledispatch==3.7.0
-sip==4.19.25
+
 six==1.16.0
 sniffio==1.2.0
 snowballstemmer==2.2.0
