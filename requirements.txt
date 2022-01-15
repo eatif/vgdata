@@ -233,7 +233,7 @@ QtPy==2.0.0
 regex==2021.11.10
 requests==2.26.0
 rope==0.22.0
-Rtree==0.9.7
+
 ruamel-yaml-conda==0.15.100
 scikit-image==0.19.1
 scikit-learn==1.0.2
