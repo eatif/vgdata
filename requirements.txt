@@ -1,7 +1,6 @@
 ipywidgets>=7.6.5
 altair>=4.2.0
 matplotlib>=3.5.1
-pandas>=1.3.5
 scikit-learn>=1.0.2
 future>=0.18.2
 voila >= 0.3.0 
@@ -9,9 +8,10 @@ voila >= 0.3.0
 
 
 Cython>=0.22
-cmdstanpy==0.9.68
+cmdstanpy==0.9.77
 pystan~=2.19.1.1
 numpy>=1.15.4
+pandas>=1.0.4
 matplotlib>=2.0.0
 LunarCalendar>=0.0.9
 convertdate>=2.1.2
