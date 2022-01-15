@@ -10,7 +10,7 @@ arrow==1.2.1
 arviz==0.11.2
 asn1crypto==1.4.0
 
-astropy==5.0
+
 async-generator==1.10
 atomicwrites==1.4.0
 attrs==21.2.0
