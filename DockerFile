@@ -1,5 +1,5 @@
 EXPOSE 8501
-WORKDIR /app
+WORKDIR /xvgdata
 RUN pip install numpy==1.18.3
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
