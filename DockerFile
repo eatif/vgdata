@@ -1,7 +1,0 @@
-EXPOSE 8501
-WORKDIR /xvgdata
-RUN pip install numpy==1.18.3
-COPY requirements.txt ./requirements.txt
-RUN pip install -r requirements.txt
-COPY . .
-CMD streamlit run app.py```
