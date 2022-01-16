@@ -1,20 +1,6 @@
 EXPOSE 8501
 WORKDIR /app
-RUN pip install numpy==1.18.5
-RUN pip install pandas==1.0.4
-RUN pip install convertdate==2.2.1
-RUN pip install LunarCalendar==0.0.9
-RUN pip install holidays==0.10.2
-RUN pip install matplotlib==3.2.1
-RUN pip install plotly==4.8.1
-RUN pip install pystan==2.19.1.1
-RUN pip install ipywidgets==7.6.5
-RUN pip install altair==4.2.0
-RUN pip install matplotlib==3.5.1
-RUN pip install scikit-learn==1.0.2
-RUN pip install prophet==1.0.1
-RUN pip install future==0.18.2
-RUN pip install voila==0.3.0
+RUN pip install numpy==1.18.3
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 COPY . .
