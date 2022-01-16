@@ -1,7 +1,7 @@
 ipywidgets==7.6.5
 altair==4.2.0
 matplotlib==3.5.1
-voila==0.3.0
+voila
 scikit-learn==1.0.2
 prophet==1.0.1
 future==0.18.2
